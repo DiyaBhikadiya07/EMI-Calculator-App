@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".MainActivity">
+
+    <!--    on below line we are creating progress bar-->
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="200sp"
+        android:layout_height="200sp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="100dp"
+        android:indeterminateTint="@color/white"
+        android:src="@drawable/emi" />
+    <TextView
+        android:id="@+id/edit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMI Calculate"
+        android:layout_marginLeft="126dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_marginTop="320dp"/>
+
+    <ProgressBar
+        android:id="@+id/idPBLoading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idIVLogo"
+        android:layout_marginLeft="185dp"
+        android:layout_marginTop="245dp"
+        android:indeterminateTint="@color/black" />
+
+</RelativeLayout>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity3"
+    android:background="@color/white">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/darkblue"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/view1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMI CALCULATOR"
+            android:layout_marginLeft="87dp"
+            android:layout_marginRight="87dp"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+
+
+    <EditText
+        android:id="@+id/loan"
+        android:layout_width="339dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="130dp"
+        android:background="@color/lightwhite"
+        android:textSize="22dp"
+        android:hint=" Loan Amount"
+        android:layout_marginRight="89px"/>
+
+    <TextView
+        android:id="@+id/reset"
+        android:layout_width="100dp"
+        android:layout_height="27dp"
+        android:layout_marginLeft="750px"
+        android:layout_marginTop="90dp"
+        android:background="@color/lightwhite"
+        android:textSize="22dp"
+        android:text=" RESET"
+        android:gravity="center"
+        android:layout_marginRight="89px"/>
+
+    <EditText
+        android:id="@+id/intrest"
+        android:layout_width="339dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="90px"
+        android:layout_marginRight="89px"
+        android:background="@color/lightwhite"
+        android:hint=" Interest"
+        android:layout_marginTop="180dp"
+        android:textSize="22dp"/>
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_width="163dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="90px"
+        android:background="@color/lightwhite"
+        android:hint=" Year"
+        android:layout_marginTop="235dp"
+        android:ems="30"
+        android:textSize="22dp"/>
+
+    <EditText
+        android:id="@+id/month"
+        android:layout_width="163dp"
+        android:layout_height="41dp"
+        android:layout_marginLeft="569px"
+        android:background="@color/lightwhite"
+        android:hint=" Month"
+        android:layout_marginTop="235dp"
+        android:ems="30"
+        android:textSize="22dp"
+        android:layout_marginRight="89px"/>
+
+    <Button
+        android:id="@+id/cal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="89px"
+        android:layout_marginTop="290dp"
+        android:layout_marginRight="89px"
+        android:text="Calculate"
+        android:textSize="23dp"
+        android:backgroundTint="@color/darkblue"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/emi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90px"
+        android:layout_marginTop="370dp"
+        android:textSize="24dp"
+        android:text="Total EMI"
+        android:layout_marginRight="89px"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/totalintrest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90px"
+        android:layout_marginRight="89px"
+        android:layout_marginTop="425dp"
+        android:text="Total Interest"
+        android:textSize="24dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/payment"
+        android:layout_width="339dp"
+        android:layout_height="37dp"
+        android:layout_marginLeft="90px"
+        android:layout_marginRight="89px"
+        android:text="Total payment"
+        android:layout_marginTop="482dp"
+        android:ems="30"
+        android:textStyle="bold"
+        android:textSize="24dp"/>
+
+    <TextView
+        android:id="@+id/temi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="10dp"
+        android:textDirection="rtl"
+        android:ems="8"
+        android:textSize="20dp"/>
+    <TextView
+        android:id="@+id/tint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="560px"
+        android:layout_marginTop="425dp"
+        android:layout_marginRight="10dp"
+        android:textDirection="rtl"
+        android:ems="8"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/tpay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="560px"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="482dp"
+        android:textDirection="rtl"
+        android:textSize="20dp"
+        android:ems="8" />
+
+</RelativeLayout>

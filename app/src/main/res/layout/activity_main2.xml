@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:background="@drawable/image1">
+
+    <ImageView
+        android:id="@+id/idIVLogo"
+        android:layout_width="300sp"
+        android:layout_height="250sp"
+        android:indeterminateTint="@color/white"
+        android:src="@drawable/image"
+        android:layout_margin="50dp"/>
+    <ImageButton
+        android:id="@+id/start"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/skyblue"
+        android:textStyle="italic"
+        android:src="@drawable/play"
+        android:scaleType="fitCenter"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity2">
+
+        <ImageButton
+            android:id="@+id/rating"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="55dp"
+            android:layout_marginTop="480dp"
+            android:background="@color/skyblue"
+            android:baseline="@dimen/cardview_compat_inset_shadow"
+            android:src="@drawable/star1"/>
+
+        <ImageButton
+            android:id="@+id/share"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="155dp"
+            android:layout_marginTop="480dp"
+            android:background="@color/skyblue"
+            android:src="@drawable/share"/>
+
+        <ImageButton
+            android:id="@+id/policy"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="255dp"
+            android:layout_marginTop="480dp"
+            android:layout_marginRight="55dp"
+            android:background="@color/skyblue"
+            android:src="@drawable/insurance"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
